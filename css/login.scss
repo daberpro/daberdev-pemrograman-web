@@ -1,0 +1,27 @@
+.form-signin{
+    width: 100%;
+    height: 100%;
+
+    form{
+        width: fit-content;
+        height: fit-content;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+.mbutton {
+    width: fit-content;
+    height: fit-content;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #385170;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+}

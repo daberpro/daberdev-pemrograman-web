@@ -1,0 +1,33 @@
+$primary : #142d4c;
+
+@mixin flex {
+    display: flex;
+}
+
+@mixin flexbox-wrap($justify-content, $align-items, $flex-wrap){
+    justify-content: $justify-content;
+    align-items: $align-items;
+    flex-wrap: wrap;
+}
+
+@mixin flexbox-direction($justify-content, $align-items, $flex-wrap){
+    justify-content: $justify-content;
+    align-items: $align-items;
+    flex-direction: column;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.saparate-content {
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+.saparate-content img {
+    object-fit: cover;
+    position: absolute;
+    // top: -20px;
+}
